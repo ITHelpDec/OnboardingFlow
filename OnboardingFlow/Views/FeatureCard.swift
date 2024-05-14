@@ -17,5 +17,7 @@ struct FeatureCard: View {
 }
 
 #Preview {
-    FeatureCard()
+    FeatureCard(
+        iconName: "person.2.crop.square.stack.fill",
+        description: "A multi-line description about a feature paired with the image on the left.")
 }
