@@ -14,6 +14,8 @@ struct WelcomePage: View {
                 RoundedRectangle(cornerRadius: 30)
                     .frame(width: 150, height: 150)
                     .foregroundStyle(.tint)
+                
+                Image(systemName: "figure.2.and.child.holdinghands")
             }
             
             Text("Welcome to MyApp")
