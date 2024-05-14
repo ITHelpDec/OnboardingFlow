@@ -15,6 +15,8 @@ struct FeatureCard: View {
         HStack {
             Image(systemName: iconName)
                 .font(.largeTitle)
+            
+            Text(description)
         }
     }
 }
