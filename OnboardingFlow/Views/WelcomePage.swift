@@ -10,6 +10,8 @@ import SwiftUI
 struct WelcomePage: View {
     var body: some View {
         VStack {
+            RoundedRectangle(cornerRadius: 30)
+            
             Text("Welcome to MyApp")
                 .font(.title)
                 .fontWeight(.semibold)
