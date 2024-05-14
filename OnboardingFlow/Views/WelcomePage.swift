@@ -12,6 +12,7 @@ struct WelcomePage: View {
         VStack {
             RoundedRectangle(cornerRadius: 30)
                 .frame(width: 150, height: 150)
+                .foregroundStyle(.tint)
             
             Text("Welcome to MyApp")
                 .font(.title)
