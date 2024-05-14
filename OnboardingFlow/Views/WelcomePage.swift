@@ -16,6 +16,7 @@ struct WelcomePage: View {
                     .foregroundStyle(.tint)
                 
                 Image(systemName: "figure.2.and.child.holdinghands")
+                    .font(.largeTitle)
             }
             
             Text("Welcome to MyApp")
