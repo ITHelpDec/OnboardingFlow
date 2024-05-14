@@ -9,9 +9,12 @@ import SwiftUI
 
 struct WelcomePage: View {
     var body: some View {
-        Text("Welcome to MyApp")
-            .font(.title)
-            .fontWeight(.semibold)
+        VStack {
+            Text("Welcome to MyApp")
+                .font(.title)
+                .fontWeight(.semibold)
+        }
+        .padding()
     }
 }
 
