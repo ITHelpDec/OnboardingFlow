@@ -17,6 +17,8 @@ struct FeatureCard: View {
                 .font(.largeTitle)
             
             Text(description)
+            
+            Spacer()
         }
         .padding()
         .background(.tint, in: RoundedRectangle(cornerRadius: 12))
