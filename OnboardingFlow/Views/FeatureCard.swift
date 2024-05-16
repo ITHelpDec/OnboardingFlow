@@ -18,6 +18,7 @@ struct FeatureCard: View {
             
             Text(description)
         }
+        .background(.tint, in: RoundedRectangle(cornerRadius: 12))
     }
 }
 
