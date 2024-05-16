@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+let gradientColours: [Color] = [
+    .gradientTop,
+    .gradientBottom
+]
+
 struct ContentView: View {
     var body: some View {
         TabView {
