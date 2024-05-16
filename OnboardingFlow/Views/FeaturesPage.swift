@@ -25,6 +25,7 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
+        .frame(maxHeight: .infinity)
         .background(Gradient(colors: gradientColours))
         .foregroundStyle(.white)
 }
