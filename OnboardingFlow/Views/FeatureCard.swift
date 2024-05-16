@@ -27,6 +27,7 @@ struct FeatureCard: View {
             RoundedRectangle(cornerRadius: 12)
                 .foregroundStyle(.tint)
                 .opacity(0.25)
+                .brightness(-0.4)
         }
         .foregroundStyle(.white)
     }
