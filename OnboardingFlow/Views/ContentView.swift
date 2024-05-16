@@ -20,6 +20,7 @@ struct ContentView: View {
         }
         .background(Gradient(colors: gradientColours))
         .tabViewStyle(.page)
+        .foregroundStyle(.white)
     }
 }
 
