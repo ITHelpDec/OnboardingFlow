@@ -13,6 +13,8 @@ struct FeaturesPage: View {
             Text("Features")
                 .font(.title)
                 .fontWeight(.semibold)
+            
+            FeatureCard(iconName: "quote.bubble", description: "\"I like-a...do..da cha-cha...")
         }
         .padding()
     }
