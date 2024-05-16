@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturesPage: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30){
             Text("Features")
                 .font(.title)
                 .fontWeight(.semibold)
