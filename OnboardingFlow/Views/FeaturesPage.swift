@@ -16,6 +16,8 @@ struct FeaturesPage: View {
                 .padding(.bottom)
             
             FeatureCard(iconName: "quote.bubble", description: "\"I like-a...do..da cha-cha...")
+            
+            FeatureCard(iconName: "quote.bubble.fill", description: "Bruce Almighty")
         }
         .padding()
     }
