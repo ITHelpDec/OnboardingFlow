@@ -25,4 +25,5 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
+        .background(Gradient(colors: gradientColours))
 }
